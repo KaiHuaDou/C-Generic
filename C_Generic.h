@@ -2,6 +2,9 @@
 	#define G void*
 	#define Get_G(x) (&x)
 	#define Set_G(x) (*x)
+	#define Generic
+	#define Get_Generic(x) (&x)
+	#define Set_Generic(x) (*x)
 #endif
 /*
 使用说明：

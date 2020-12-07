@@ -1,7 +1,7 @@
 #ifndef C_Generic_Header
-	#define G void*
-	#define Get_G(x) (&x)
-	#define Set_G(x) (*x)
+	#define G(type) type*
+	#define Get_G(x) *x
+	#define Set_G(x) &x
 	#define Generic
 	#define Get_Generic(x) (&x)
 	#define Set_Generic(x) (*x)

@@ -1,0 +1,6 @@
+# Complied File
+*.gch
+*.exe
+
+# Visual Studio Cache
+.vs
